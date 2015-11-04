@@ -1,4 +1,5 @@
 var gulp = require('gulp');
+var jslint = require('gulp-jslint');
 var gutil = require('gulp-util');
 var bower = require('bower');
 var concat = require('gulp-concat');
