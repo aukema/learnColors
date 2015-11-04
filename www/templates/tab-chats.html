@@ -1,0 +1,29 @@
+<ion-view view-title="Proberen">
+  <ion-content class="padding">
+
+
+<div class="card" ng-init="init()">
+  <div class="item item-text-wrap">
+     <h1><i class="icon ion-volume-high"></i> {{currentcolor.name}}</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col">
+    <button class="button button-block button-large button-{{answers[0].css}}" ng-click="check(0)"></button>
+  </div>
+  <div class="col">
+    <button class="button button-block button-large button-{{answers[1].css}}" ng-click="check(1)"></button>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col">
+    <button class="button button-block button-large button-{{answers[2].css}}" ng-click="check(2)"></button>
+  </div>
+  <div class="col">
+    <button class="button button-block button-large button-{{answers[3].css}}" ng-click="check(3)"></button>
+  </div>
+</div>
+
+  </ion-content>
+</ion-view>
