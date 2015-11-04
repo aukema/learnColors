@@ -41,7 +41,7 @@ gulp.task('install', ['git-check'], function() {
 gulp.task('lint', function() {
   return gulp.src('./lib/*.js')
     .pipe(jshint())
-    .pipe(jshint.reporter('YOUR_REPORTER_HERE'));
+    .pipe(jshint.reporter('default'));
 });
 
 gulp.task('git-check', function(done) {
