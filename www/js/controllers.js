@@ -1,8 +1,8 @@
-angular.module('starter.controllers', [])
+angular.module('starter.controllers', []
 
 .controller('DashCtrl', function($log, $scope) {
   $scope.colors = [
-  {name: 'Rood', css: 'assertive' }, 
+  {name: 'Rood', css: 'assertive'}, 
   {name: 'Geel', css: 'energized'}, 
   {name: 'Groen', css: 'balanced'},
   {name: 'Blauw', css: 'positive'},
